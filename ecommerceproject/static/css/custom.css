@@ -1,0 +1,150 @@
+.circular-logo {
+    width: 130px; /* Adjust the size of the circular container */
+    height: 130px; /* Adjust the size of the circular container */
+    border-radius: 50%; /* Make it circular */
+    overflow: hidden; /* Hide any parts of the image outside the circular container */
+    background-color: #fff; /* Set a background color to cover any transparency in the image */
+}
+
+.circular-logo img {
+    width: 100%; /* Make the image fill the circular container */
+    height: auto; /* Maintain the aspect ratio of the image */
+}
+/*** Animation ***/
+.text-container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif; /* Add your desired font */
+}
+
+.animate-fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1.5s forwards;
+    color: #333; /* Add your desired color */
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.my-title {
+    font-size: 2rem;
+    color: #008080; /* Add your desired color */
+    font-family: 'Verdana', sans-serif; /* Add your desired font */
+}
+
+.text-justify {
+    text-align: justify;
+    color: #555; /* Add your desired color */
+}
+
+
+
+.nav_item{
+    letter-spacing:.2em;
+    font-size:14px;
+    text-transform:uppercase;
+}
+
+.dropdown_item{
+    letter-spacing:.2em;
+    font-size:14px;
+    text-transform:uppercase;
+}
+
+.my_footer p{
+    padding-top:20px;
+    font-size:14px;
+}
+.my_footer{
+    background-color:grey;
+    height:60px;
+}
+.my_row_class{
+    padding-top:15px;
+}
+.my_row_class .mx_auto{
+    color:blue;
+    font-size:12px;
+}
+
+.my_image{
+    width:100%;
+    height:400px;
+}
+
+.my_title{
+    font-size:16px;
+    text-transform:uppercase;
+    letter-spacing: .2em;
+}
+.my_image_padding{
+    padding:5px;
+
+}
+.app-category .field-description textarea {
+    text-align: center;
+}
+
+.my_bottom_margin{
+    margin-bottom:10px;
+}
+.card-body h4{
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:.2em;
+}
+.my_prod_row_class{
+    padding-top:15px;
+    padding-bottom:10px;
+}
+.my_prod_row_class .mx_auto a{
+    color:tomato;
+    font-size:12px;
+    text-decoration:none;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    letter-spacing:.2em;
+}
+.my_prod_title{
+    font-size:16px;
+    text-transform:uppercase;
+    letter-spacing:.2em;
+    padding-top:15px;
+    padding-bottom:10px;
+
+}
+
+.my_prod_text{
+    padding-right:20px;
+}
+.my_search_text{
+    padding-top:20px;
+}
+
+.my_custom_table{
+    min-width:400px;
+    font-size:14px;
+}
+.my_custom_thead{
+    font-weight:normal;
+    text-transform:uppercase;
+    letter-spacing:.2em;
+    background-color:#f8f8fa!important;
+}
+
+.custom_a{
+    text-decoration:none;
+}
+.custom_icon{
+    text_decoration:none;
+    color:#868e96 !important;
+}
+.my_custom_button{
+    margin-top:5px;
+}
